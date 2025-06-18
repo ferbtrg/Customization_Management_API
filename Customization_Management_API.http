@@ -1,0 +1,6 @@
+@Customization_Management_API_HostAddress = http://localhost:5183
+
+GET {{Customization_Management_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
