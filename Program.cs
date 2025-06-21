@@ -33,7 +33,7 @@ builder.Services.AddSwaggerGen(c =>
 
     // This enforces the security definition globally. It tells Swagger that every endpoint
     // in this API requires the 'Bearer' security.
-    // As a result, a lock icon (🔒) will be displayed next to every operation, and the
+    // As a result, a lock icon will be displayed next to every operation, and the
     // JWT token from the 'Authorize' button will be sent in the 'Authorization' header.
     c.AddSecurityRequirement( new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
     {
