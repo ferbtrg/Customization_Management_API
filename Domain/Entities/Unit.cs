@@ -20,7 +20,11 @@ public class Unit
 
     private Unit()
     {
-
+        DevelopmentName             = string.Empty;
+        UnitNumber                  = string.Empty;
+        ClientName                  = string.Empty;
+        ClientCPF                   = string.Empty;
+        CustomizationRequests       = new List<CustomizationRequest>();
     }
 
     /// <summary>

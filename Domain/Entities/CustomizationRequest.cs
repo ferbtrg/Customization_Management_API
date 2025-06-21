@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Customization_Management_API.Domain.Entities;
 
@@ -20,7 +21,8 @@ public class CustomizationRequest
 
     private CustomizationRequest()
     {
-
+        Unit                = null!;
+        Customizations      = new List<Customization>();
     }
 
     /// <summary>

@@ -36,6 +36,9 @@ public class Customization
 
     private Customization()
     {
+        Name                    = string.Empty;
+        Description             = string.Empty;
+        CustomizationRequests   = new List<CustomizationRequest>();
     }
 
     /// <summary>

@@ -45,3 +45,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Database files
+*.db-journal
+*.mdf
+*.ldf
+
+# User-specific files
+*.suo
